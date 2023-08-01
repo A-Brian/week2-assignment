@@ -19,5 +19,18 @@ function calculateAge() {
   
     const age = currentYear - birthYear;
     resultElement.textContent = `Your age is ${age} years old.`;
+
+// Array of numbers
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// Loop through the array and output even numbers
+for (const number of numbers) {
+  if (number % 2 === 0) {
+    console.log(number);
+  }
+}
+
+
+
   }
   
